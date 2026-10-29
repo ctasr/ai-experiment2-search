@@ -1,0 +1,22 @@
+{
+  "H=2": {
+    "Minimax": {
+      "best_target": "T2",
+      "best_value": -1
+    },
+    "Alpha-beta": {
+      "best_target": "T2",
+      "best_value": -1
+    }
+  },
+  "H=4": {
+    "Minimax": {
+      "best_target": "T3",
+      "best_value": 3
+    },
+    "Alpha-beta": {
+      "best_target": "T3",
+      "best_value": 3
+    }
+  }
+}

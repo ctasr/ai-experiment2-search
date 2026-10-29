@@ -1,0 +1,37 @@
+test_expansion_trace_explains_path (test_experiment.TestMaze.test_expansion_trace_explains_path) ... ok
+test_given_sample (test_experiment.TestMaze.test_given_sample) ... ok
+test_invalid_grid (test_experiment.TestMaze.test_invalid_grid) ... ok
+test_multiple_equal_shortest_paths (test_experiment.TestMaze.test_multiple_equal_shortest_paths) ... ok
+test_no_path_and_same_start_goal (test_experiment.TestMaze.test_no_path_and_same_start_goal) ... ok
+test_random_grids_against_independent_dijkstra (test_experiment.TestMaze.test_random_grids_against_independent_dijkstra) ... ok
+test_tie_breaking_preserves_optimal_cost (test_experiment.TestMaze.test_tie_breaking_preserves_optimal_cost) ... ok
+test_given_sample_and_trace (test_experiment.TestTerrain.test_given_sample_and_trace) ... ok
+test_negative_weight_rejected (test_experiment.TestTerrain.test_negative_weight_rejected) ... ok
+test_potential_on_disconnected_grid (test_experiment.TestTerrain.test_potential_on_disconnected_grid) ... ok
+test_random_weights_against_independent_dijkstra (test_experiment.TestTerrain.test_random_weights_against_independent_dijkstra) ... ok
+test_reverse_potential_matches_independent_shortest_costs (test_experiment.TestTerrain.test_reverse_potential_matches_independent_shortest_costs) ... ok
+test_string_numbers_and_no_path (test_experiment.TestTerrain.test_string_numbers_and_no_path) ... ok
+test_zero_cost_goal_does_not_break_optimality (test_experiment.TestTerrain.test_zero_cost_goal_does_not_break_optimality) ... ok
+test_zero_cost_terrain_and_tie_breaking (test_experiment.TestTerrain.test_zero_cost_terrain_and_tie_breaking) ... ok
+test_alternate_weighted_map_generalizes (test_experiment.TestTreasure.test_alternate_weighted_map_generalizes) ... ok
+test_locations_matrix_and_independent_dijkstra (test_experiment.TestTreasure.test_locations_matrix_and_independent_dijkstra) ... ok
+test_official_h2_h4_and_all_orders (test_experiment.TestTreasure.test_official_h2_h4_and_all_orders) ... ok
+test_ordering_limitation_and_tied_optima (test_experiment.TestTreasure.test_ordering_limitation_and_tied_optima) ... ok
+test_partial_state_and_depth_limit (test_experiment.TestTreasure.test_partial_state_and_depth_limit) ... ok
+test_perturbed_values_all_depths_match_full_minimax (test_experiment.TestTreasure.test_perturbed_values_all_depths_match_full_minimax) ... ok
+test_random_weighted_maps_against_independent_oracles (test_experiment.TestTreasure.test_random_weighted_maps_against_independent_oracles) ... ok
+test_six_treasures_and_memoization (test_experiment.TestTreasure.test_six_treasures_and_memoization) ... ok
+test_state_and_negative_gain (test_experiment.TestTreasure.test_state_and_negative_gain) ... ok
+test_unreachable_treasure_rejected (test_experiment.TestTreasure.test_unreachable_treasure_rejected) ... ok
+test_zero_cost_map_and_pass_through_treasure (test_experiment.TestTreasure.test_zero_cost_map_and_pass_through_treasure) ... ok
+test_cycle_rejected (test_experiment.TestTree.test_cycle_rejected) ... ok
+test_given_shared_subtree (test_experiment.TestTree.test_given_shared_subtree) ... ok
+test_random_trees_equal_full_minimax (test_experiment.TestTree.test_random_trees_equal_full_minimax) ... ok
+test_same_value_cases_are_paired_across_depths (test_experiment_design.ExperimentDesignTests.test_same_value_cases_are_paired_across_depths) ... ok
+test_matches_search_for_zero_cost_goal_and_unreachable_start (test_lookup_baseline.TestLookupBaseline.test_matches_search_for_zero_cost_goal_and_unreachable_start) ... ok
+test_three_way_rotation_rebuilds_each_preprocessed_trial (test_lookup_baseline.TestLookupBaseline.test_three_way_rotation_rebuilds_each_preprocessed_trial) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.523s
+
+OK

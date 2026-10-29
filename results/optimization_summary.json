@@ -1,0 +1,537 @@
+{
+  "seeds": {
+    "astar": 20261015,
+    "game": 20261016,
+    "tree": 20261017
+  },
+  "source_sha256": {
+    "search_algorithms.py": "915193851ec1495734c65c542e155f2f10bf6b8f4fdba2cf71885d956d3408a2",
+    "game_search.py": "45ed23ce03fcecd26d26a17119b0aa0aef55821c0b1cff8732abe14dc37364b3",
+    "treasure_game.py": "cf1be2458dad0fb90d20ad06feabea0704ee0d208c183dfccb4b851e3776915c",
+    "extended_experiments.py": "f9e6b5c593dce3b762d772b60b81b56ce89afbf13003db55ff537eea091dc68b",
+    "plot_style.py": "1efa95352fe55abb80edb0f2ee600c646e9b37ee911266f3c58f986687c8f981",
+    "requirements.txt": "9df64c193d6294e71dfca6e9f9588c1c525f9243ab201d264428e9e1434beb8d"
+  },
+  "astar_summary": [
+    {
+      "task": "maze",
+      "obstacle_density": 0.0,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 1,
+      "reachable": 40,
+      "median_expanded_all": 31.0,
+      "median_expanded_reachable": 31.0,
+      "mean_expanded": 31
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.0,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 1,
+      "reachable": 40,
+      "median_expanded_all": 256.0,
+      "median_expanded_reachable": 256.0,
+      "mean_expanded": 256
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.0,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 1,
+      "reachable": 40,
+      "median_expanded_all": 256.0,
+      "median_expanded_reachable": 256.0,
+      "mean_expanded": 256
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.15,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 37,
+      "median_expanded_all": 42.0,
+      "median_expanded_reachable": 42,
+      "mean_expanded": 51.73
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.15,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 37,
+      "median_expanded_all": 178.5,
+      "median_expanded_reachable": 178,
+      "mean_expanded": 171.38
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.15,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 37,
+      "median_expanded_all": 178.5,
+      "median_expanded_reachable": 178,
+      "mean_expanded": 171.38
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.3,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 21,
+      "median_expanded_all": 46.5,
+      "median_expanded_reachable": 47,
+      "mean_expanded": 56.65
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.3,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 21,
+      "median_expanded_all": 85.0,
+      "median_expanded_reachable": 93,
+      "mean_expanded": 78.9
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.3,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 21,
+      "median_expanded_all": 85.0,
+      "median_expanded_reachable": 93,
+      "mean_expanded": 78.9
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.45,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 0,
+      "median_expanded_all": 10.0,
+      "median_expanded_reachable": null,
+      "mean_expanded": 17.75
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.45,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 0,
+      "median_expanded_all": 10.0,
+      "median_expanded_reachable": null,
+      "mean_expanded": 17.75
+    },
+    {
+      "task": "maze",
+      "obstacle_density": 0.45,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 0,
+      "median_expanded_all": 10.0,
+      "median_expanded_reachable": null,
+      "mean_expanded": 17.75
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.0,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 40,
+      "median_expanded_all": 210.0,
+      "median_expanded_reachable": 210.0,
+      "mean_expanded": 201.2
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.0,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 40,
+      "median_expanded_all": 219.0,
+      "median_expanded_reachable": 219.0,
+      "mean_expanded": 209
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.0,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 40,
+      "median_expanded_all": 219.0,
+      "median_expanded_reachable": 219.0,
+      "mean_expanded": 209.25
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.15,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 36,
+      "median_expanded_all": 193.0,
+      "median_expanded_reachable": 194.0,
+      "mean_expanded": 174.3
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.15,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 36,
+      "median_expanded_all": 195.0,
+      "median_expanded_reachable": 197.0,
+      "mean_expanded": 177.68
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.15,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 36,
+      "median_expanded_all": 195.0,
+      "median_expanded_reachable": 197.0,
+      "mean_expanded": 177.8
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.3,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 12,
+      "median_expanded_all": 106.5,
+      "median_expanded_reachable": 141.0,
+      "mean_expanded": 84.17
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.3,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 12,
+      "median_expanded_all": 107.0,
+      "median_expanded_reachable": 145.5,
+      "mean_expanded": 84.75
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.3,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 12,
+      "median_expanded_all": 107.0,
+      "median_expanded_reachable": 145.5,
+      "mean_expanded": 84.83
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.45,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 0,
+      "median_expanded_all": 12.5,
+      "median_expanded_reachable": null,
+      "mean_expanded": 24.27
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.45,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 0,
+      "median_expanded_all": 12.5,
+      "median_expanded_reachable": null,
+      "mean_expanded": 24.27
+    },
+    {
+      "task": "terrain_positive",
+      "obstacle_density": 0.45,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 0,
+      "median_expanded_all": 12.5,
+      "median_expanded_reachable": null,
+      "mean_expanded": 24.27
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.0,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 40,
+      "median_expanded_all": 227.5,
+      "median_expanded_reachable": 227.5,
+      "mean_expanded": 218.7
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.0,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 40,
+      "median_expanded_all": 227.5,
+      "median_expanded_reachable": 227.5,
+      "mean_expanded": 218.7
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.0,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 40,
+      "median_expanded_all": 227.5,
+      "median_expanded_reachable": 227.5,
+      "mean_expanded": 218.7
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.15,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 37,
+      "median_expanded_all": 207.5,
+      "median_expanded_reachable": 208,
+      "mean_expanded": 192.05
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.15,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 37,
+      "median_expanded_all": 207.5,
+      "median_expanded_reachable": 208,
+      "mean_expanded": 192.05
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.15,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 37,
+      "median_expanded_all": 207.5,
+      "median_expanded_reachable": 208,
+      "mean_expanded": 192.05
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.3,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 25,
+      "median_expanded_all": 149.0,
+      "median_expanded_reachable": 159,
+      "mean_expanded": 123.25
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.3,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 25,
+      "median_expanded_all": 149.0,
+      "median_expanded_reachable": 159,
+      "mean_expanded": 123.25
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.3,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 25,
+      "median_expanded_all": 149.0,
+      "median_expanded_reachable": 159,
+      "mean_expanded": 123.25
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.45,
+      "tie_break": "deeper",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 2,
+      "median_expanded_all": 8.5,
+      "median_expanded_reachable": 109.0,
+      "mean_expanded": 24.9
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.45,
+      "tie_break": "fifo",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 2,
+      "median_expanded_all": 8.5,
+      "median_expanded_reachable": 109.0,
+      "mean_expanded": 24.9
+    },
+    {
+      "task": "terrain_zero",
+      "obstacle_density": 0.45,
+      "tie_break": "shallower",
+      "cases": 40,
+      "distinct_maps": 40,
+      "reachable": 2,
+      "median_expanded_all": 8.5,
+      "median_expanded_reachable": 109.0,
+      "mean_expanded": 24.9
+    }
+  ],
+  "game_summary": [
+    {
+      "depth": 2,
+      "algorithm": "minimax",
+      "cases": 40,
+      "median_visited_nodes": 37.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 0.0,
+      "median_time_median_ns": 123050.0
+    },
+    {
+      "depth": 2,
+      "algorithm": "minimax_cache",
+      "cases": 40,
+      "median_visited_nodes": 37.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 6.0,
+      "median_time_median_ns": 125700.0
+    },
+    {
+      "depth": 2,
+      "algorithm": "alphabeta_given",
+      "cases": 40,
+      "median_visited_nodes": 25.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 0.0,
+      "median_time_median_ns": 91250.0
+    },
+    {
+      "depth": 2,
+      "algorithm": "alphabeta_greedy",
+      "cases": 40,
+      "median_visited_nodes": 17.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 0.0,
+      "median_time_median_ns": 87250.0
+    },
+    {
+      "depth": 4,
+      "algorithm": "minimax",
+      "cases": 40,
+      "median_visited_nodes": 517.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 0.0,
+      "median_time_median_ns": 1673500.0
+    },
+    {
+      "depth": 4,
+      "algorithm": "minimax_cache",
+      "cases": 40,
+      "median_visited_nodes": 517.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 156.0,
+      "median_time_median_ns": 1748250.0
+    },
+    {
+      "depth": 4,
+      "algorithm": "alphabeta_given",
+      "cases": 40,
+      "median_visited_nodes": 188.5,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 0.0,
+      "median_time_median_ns": 705200.0
+    },
+    {
+      "depth": 4,
+      "algorithm": "alphabeta_greedy",
+      "cases": 40,
+      "median_visited_nodes": 83.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 0.0,
+      "median_time_median_ns": 437300.0
+    },
+    {
+      "depth": 6,
+      "algorithm": "minimax",
+      "cases": 40,
+      "median_visited_nodes": 1957.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 0.0,
+      "median_time_median_ns": 6508750.0
+    },
+    {
+      "depth": 6,
+      "algorithm": "minimax_cache",
+      "cases": 40,
+      "median_visited_nodes": 997.0,
+      "median_cache_hits": 420.0,
+      "median_cache_entries": 456.0,
+      "median_time_median_ns": 3688550.0
+    },
+    {
+      "depth": 6,
+      "algorithm": "alphabeta_given",
+      "cases": 40,
+      "median_visited_nodes": 555.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 0.0,
+      "median_time_median_ns": 2038950.0
+    },
+    {
+      "depth": 6,
+      "algorithm": "alphabeta_greedy",
+      "cases": 40,
+      "median_visited_nodes": 219.0,
+      "median_cache_hits": 0.0,
+      "median_cache_entries": 0.0,
+      "median_time_median_ns": 1037050.0
+    }
+  ],
+  "tree_summary": {
+    "cases": 100,
+    "reverse_saves_nodes": 55,
+    "equal_nodes": 1,
+    "left_to_right_saves_nodes": 44,
+    "median_left_nodes": 74.0,
+    "median_reverse_nodes": 67.5,
+    "min_node_difference": -61,
+    "max_node_difference": 63
+  },
+  "timing_note": "博弈方案每组预热并轮换测量11次，记录中位数与四分位距；短时计时仍受系统负载影响，以节点数为主要对照指标。",
+  "cache_note": "仅缓存未剪枝Minimax的精确未来增量；不能直接缓存剪枝返回的界。",
+  "game_design_note": "同一case的六个宝藏价值在H=2、4、6之间保持不变，各深度使用同一组40个案例。",
+  "map_design_note": "distinct_maps按地图内容哈希去重；无障碍迷宫的40次记录来自同一张16×16地图。"
+}

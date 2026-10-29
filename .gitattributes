@@ -1,0 +1,2 @@
+# 保留原始字节，避免不同系统转换换行符后导致源码和结果哈希变化。
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
