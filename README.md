@@ -17,7 +17,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe advanced_experiments.py
 ```
 
-macOS或Linux使用`python3 -m venv .venv`，后续将解释器路径替换为`.venv/bin/python`。算法只依赖标准库，绘图需要Matplotlib和已安装的中文字体，如宋体或Noto Sans CJK SC。
+macOS或Linux使用`python3 -m venv .venv`，后续将解释器路径替换为`.venv/bin/python`。
 
 ## 文件说明
 
