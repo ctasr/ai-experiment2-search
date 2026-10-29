@@ -8,3 +8,12 @@ __pycache__/
 *.pdf
 *.zip
 *.rar
+
+# 重跑时生成的测试日志和未用于报告的辅助图
+results/test_log.txt
+figures/astar_expanded.png
+figures/tree_search_nodes.png
+figures/treasure_distance_matrix.png
+figures/ordering_sweep.png
+figures/tie_break_regimes.png
+figures/lookahead_ordering_tradeoff.png
